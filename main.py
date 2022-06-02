@@ -21,7 +21,9 @@ print(player,'vs', end='')
 chosen = randint(1,3)
 #print(chosen)
 
-print(computer)
+if chosen == 1:
+  computer == 'r'
+  print ('0', end='')
 
 if player == computer:
   print('DRAW!')
